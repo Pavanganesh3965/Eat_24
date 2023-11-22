@@ -2,6 +2,9 @@
 
 EAT24 is a food delivery project that allows users to explore, order, and enjoy delicious meals conveniently. This project is built with user authentication, a cart system, and integration with MongoDB for seamless data storage.
 
+## Website link
+https://eat24.onrender.com/
+
 ## Features
 
 1. **User Authentication:**
