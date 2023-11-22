@@ -32,8 +32,8 @@ https://eat24.onrender.com/
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/EAT24-food-delivery.git
-   cd EAT24-food-delivery
+   git clone https://github.com/your-username/EAT24.git
+   cd EAT24
    ```
 
 2. Install dependencies:
@@ -49,24 +49,4 @@ https://eat24.onrender.com/
    npm start
    ```
 
-5. Open your browser and visit `http://localhost:3000` to access EAT24.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to EAT24, please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- Special thanks to [contributors](CONTRIBUTORS.md) who have dedicated their time and effort to make EAT24 better.
-
-## Contact
-
-For any inquiries, please contact us at [support@eat24.com](mailto:support@eat24.com).
-
-```
-
-Feel free to customize this template according to your project's structure and specific details. Additionally, you might want to include sections on project structure, API documentation, deployment instructions, and any other relevant information.
+5. Open your browser and visit `http://localhost:5500` to access EAT24.
