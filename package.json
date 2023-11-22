@@ -1,7 +1,7 @@
 {
-  "name": "foodmine-react",
+  "name": "EAT24",
   "version": "1.0.0",
-  "description": "## 1. Demo And Installation",
+  "description": "MERN project",
   "main": "index.js",
   "scripts": {
     "start": "cd backend && npm start",
@@ -10,7 +10,7 @@
     "postbuild": "mv -f frontend/build backend/src/public"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tadipatri Yaswanth Reddy",
   "license": "ISC",
   "engines": {
     "node": "20.9.0"
