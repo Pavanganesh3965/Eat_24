@@ -222,6 +222,8 @@ EAT24 stands out in the market by addressing specific challenges faced by first-
 
 # ScreenShots:
 
+![Alt text](C:\Users\m.pavan ganesh\Desktop\projects\eat24\EAT24\ScreenShots\food_review.png?raw=true "Food Review") 
+
 ### Installation
 1. Clone the repository:
    ```bash
