@@ -53,171 +53,172 @@ EAT24 stands out in the market by addressing specific challenges faced by first-
 - MongoDB installed and running
   
 ## Folder Structure
-|-- undefined
-    |-- EAT24
-        |-- .gitignore
-        |-- directoryList.md
-        |-- package-lock.json
-        |-- package.json
-        |-- README.md
-        |-- backend
-        |   |-- .gitignore
-        |   |-- jsconfig.json
-        |   |-- package-lock.json
-        |   |-- package.json
-        |   |-- src
-        |       |-- data.js
-        |       |-- server.js
-        |       |-- config
-        |       |   |-- database.config.js
-        |       |-- constants
-        |       |   |-- httpStatus.js
-        |       |   |-- orderStatus.js
-        |       |-- middleware
-        |       |   |-- auth.mid.js
-        |       |-- models
-        |       |   |-- food.model.js
-        |       |   |-- order.model.js
-        |       |   |-- user.model.js
-        |       |-- routers
-        |           |-- food.router.js
-        |           |-- order.router.js
-        |           |-- user.router.js
-        |-- frontend
-            |-- .gitignore
-            |-- jsconfig.json
-            |-- package-lock.json
-            |-- package.json
-            |-- README.md
-            |-- public
-            |   |-- favicon.ico
-            |   |-- index.html
-            |   |-- layers-2x.png
-            |   |-- layers.png
-            |   |-- loading.svg
-            |   |-- logo192.png
-            |   |-- logo512.png
-            |   |-- manifest.json
-            |   |-- marker-icon-2x.png
-            |   |-- marker-icon.png
-            |   |-- marker-shadow.png
-            |   |-- robots.txt
-            |   |-- star-empty.svg
-            |   |-- star-full.svg
-            |   |-- star-half.svg
-            |   |-- foods
-            |   |   |-- food-1.jpg
-            |   |   |-- food-2.jpg
-            |   |   |-- food-3.jpg
-            |   |   |-- food-4.jpg
-            |   |   |-- food-5.jpg
-            |   |   |-- food-6.jpg
-            |   |-- icons
-            |       |-- foods.svg
-            |       |-- orders.svg
-            |       |-- profile.svg
-            |       |-- users.svg
-            |-- src
-                |-- App.js
-                |-- AppRoutes.js
-                |-- axiosConfig.js
-                |-- index.css
-                |-- index.js
-                |-- reportWebVitals.js
-                |-- components
-                |   |-- AuthRoute
-                |   |   |-- AuthRoute.js
-                |   |-- Button
-                |   |   |-- Button.js
-                |   |   |-- button.module.css
-                |   |-- ChangePassword
-                |   |   |-- ChangePassword.js
-                |   |-- DateTime
-                |   |   |-- DateTime.js
-                |   |-- Header
-                |   |   |-- Header.js
-                |   |   |-- header.module.css
-                |   |-- Input
-                |   |   |-- Input.js
-                |   |   |-- input.module.css
-                |   |-- InputContainer
-                |   |   |-- InputContainer.js
-                |   |   |-- inputContainer.module.css
-                |   |-- Loading
-                |   |   |-- Loading.js
-                |   |   |-- loading.module.css
-                |   |-- Map
-                |   |   |-- Map.js
-                |   |   |-- map.module.css
-                |   |-- NotFound
-                |   |   |-- NotFound.js
-                |   |   |-- notFound.module.css
-                |   |-- OrderItemsList
-                |   |   |-- OrderItemsList.js
-                |   |   |-- orderItemsList.module.css
-                |   |-- PaypalButtons
-                |   |   |-- PaypalButtons.js
-                |   |-- Price
-                |   |   |-- Price.js
-                |   |-- Search
-                |   |   |-- Search.js
-                |   |   |-- search.module.css
-                |   |-- StarRating
-                |   |   |-- StarRating.js
-                |   |   |-- starRating.module.css
-                |   |-- Tags
-                |   |   |-- Tags.js
-                |   |   |-- tags.module.css
-                |   |-- Thumbnails
-                |   |   |-- Thumbnails.js
-                |   |   |-- thumbnails.module.css
-                |   |-- Title
-                |       |-- Title.js
-                |       |-- title.module.css
-                |-- hooks
-                |   |-- useAuth.js
-                |   |-- useCart.js
-                |   |-- useLoading.js
-                |-- interceptors
-                |   |-- authInterceptor.js
-                |   |-- loadingInterceptor.js
-                |-- pages
-                |   |-- Cart
-                |   |   |-- CartPage.js
-                |   |   |-- cartPage.module.css
-                |   |-- Checkout
-                |   |   |-- CheckoutPage.js
-                |   |   |-- checkoutPage.module.css
-                |   |-- Dashboard
-                |   |   |-- Dashboard.js
-                |   |   |-- dashboard.module.css
-                |   |-- Food
-                |   |   |-- FoodPage.js
-                |   |   |-- foodPage.module.css
-                |   |-- Home
-                |   |   |-- HomePage.js
-                |   |-- Login
-                |   |   |-- LoginPage.js
-                |   |   |-- loginPage.module.css
-                |   |-- Orders
-                |   |   |-- OrdersPage.js
-                |   |   |-- ordersPage.module.css
-                |   |-- OrderTrack
-                |   |   |-- OrderTrackPage.js
-                |   |   |-- orderTrackPage.module.css
-                |   |-- Payment
-                |   |   |-- PaymentPage.js
-                |   |   |-- paymentPage.module.css
-                |   |-- Profile
-                |   |   |-- ProfilePage.js
-                |   |   |-- profilePage.module.css
-                |   |-- Register
-                |       |-- RegisterPage.js
-                |       |-- registerPage.module.css
-                |-- services
-                    |-- foodService.js
-                    |-- orderService.js
-                    |-- userService.js
+```bash
+|-- EAT24
+     |-- .gitignore
+     |-- directoryList.md
+     |-- package-lock.json
+     |-- package.json
+     |-- README.md
+     |-- backend
+     |   |-- .gitignore
+     |   |-- jsconfig.json
+     |   |-- package-lock.json
+     |   |-- package.json
+     |   |-- src
+     |       |-- data.js
+     |       |-- server.js
+     |       |-- config
+     |       |   |-- database.config.js
+     |       |-- constants
+     |       |   |-- httpStatus.js
+     |       |   |-- orderStatus.js
+     |       |-- middleware
+     |       |   |-- auth.mid.js
+     |       |-- models
+     |       |   |-- food.model.js
+     |       |   |-- order.model.js
+     |       |   |-- user.model.js
+     |       |-- routers
+     |           |-- food.router.js
+     |           |-- order.router.js
+     |           |-- user.router.js
+     |-- frontend
+         |-- .gitignore
+         |-- jsconfig.json
+         |-- package-lock.json
+         |-- package.json
+         |-- README.md
+         |-- public
+         |   |-- favicon.ico
+         |   |-- index.html
+         |   |-- layers-2x.png
+         |   |-- layers.png
+         |   |-- loading.svg
+         |   |-- logo192.png
+         |   |-- logo512.png
+         |   |-- manifest.json
+         |   |-- marker-icon-2x.png
+         |   |-- marker-icon.png
+         |   |-- marker-shadow.png
+         |   |-- robots.txt
+         |   |-- star-empty.svg
+         |   |-- star-full.svg
+         |   |-- star-half.svg
+         |   |-- foods
+         |   |   |-- food-1.jpg
+         |   |   |-- food-2.jpg
+         |   |   |-- food-3.jpg
+         |   |   |-- food-4.jpg
+         |   |   |-- food-5.jpg
+         |   |   |-- food-6.jpg
+         |   |-- icons
+         |       |-- foods.svg
+         |       |-- orders.svg
+         |       |-- profile.svg
+         |       |-- users.svg
+         |-- src
+             |-- App.js
+             |-- AppRoutes.js
+             |-- axiosConfig.js
+             |-- index.css
+             |-- index.js
+             |-- reportWebVitals.js
+             |-- components
+             |   |-- AuthRoute
+             |   |   |-- AuthRoute.js
+             |   |-- Button
+             |   |   |-- Button.js
+             |   |   |-- button.module.css
+             |   |-- ChangePassword
+             |   |   |-- ChangePassword.js
+             |   |-- DateTime
+             |   |   |-- DateTime.js
+             |   |-- Header
+             |   |   |-- Header.js
+             |   |   |-- header.module.css
+             |   |-- Input
+             |   |   |-- Input.js
+             |   |   |-- input.module.css
+             |   |-- InputContainer
+             |   |   |-- InputContainer.js
+             |   |   |-- inputContainer.module.css
+             |   |-- Loading
+             |   |   |-- Loading.js
+             |   |   |-- loading.module.css
+             |   |-- Map
+             |   |   |-- Map.js
+             |   |   |-- map.module.css
+             |   |-- NotFound
+             |   |   |-- NotFound.js
+             |   |   |-- notFound.module.css
+             |   |-- OrderItemsList
+             |   |   |-- OrderItemsList.js
+             |   |   |-- orderItemsList.module.css
+             |   |-- PaypalButtons
+             |   |   |-- PaypalButtons.js
+             |   |-- Price
+             |   |   |-- Price.js
+             |   |-- Search
+             |   |   |-- Search.js
+             |   |   |-- search.module.css
+             |   |-- StarRating
+             |   |   |-- StarRating.js
+             |   |   |-- starRating.module.css
+             |   |-- Tags
+             |   |   |-- Tags.js
+             |   |   |-- tags.module.css
+             |   |-- Thumbnails
+             |   |   |-- Thumbnails.js
+             |   |   |-- thumbnails.module.css
+             |   |-- Title
+             |       |-- Title.js
+             |       |-- title.module.css
+             |-- hooks
+             |   |-- useAuth.js
+             |   |-- useCart.js
+             |   |-- useLoading.js
+             |-- interceptors
+             |   |-- authInterceptor.js
+             |   |-- loadingInterceptor.js
+             |-- pages
+             |   |-- Cart
+             |   |   |-- CartPage.js
+             |   |   |-- cartPage.module.css
+             |   |-- Checkout
+             |   |   |-- CheckoutPage.js
+             |   |   |-- checkoutPage.module.css
+             |   |-- Dashboard
+             |   |   |-- Dashboard.js
+             |   |   |-- dashboard.module.css
+             |   |-- Food
+             |   |   |-- FoodPage.js
+             |   |   |-- foodPage.module.css
+             |   |-- Home
+             |   |   |-- HomePage.js
+             |   |-- Login
+             |   |   |-- LoginPage.js
+             |   |   |-- loginPage.module.css
+             |   |-- Orders
+             |   |   |-- OrdersPage.js
+             |   |   |-- ordersPage.module.css
+             |   |-- OrderTrack
+             |   |   |-- OrderTrackPage.js
+             |   |   |-- orderTrackPage.module.css
+             |   |-- Payment
+             |   |   |-- PaymentPage.js
+             |   |   |-- paymentPage.module.css
+             |   |-- Profile
+             |   |   |-- ProfilePage.js
+             |   |   |-- profilePage.module.css
+             |   |-- Register
+             |       |-- RegisterPage.js
+             |       |-- registerPage.module.css
+             |-- services
+                 |-- foodService.js
+                 |-- orderService.js
+                 |-- userService.js
+ ```
 
 # ScreenShots:
 
